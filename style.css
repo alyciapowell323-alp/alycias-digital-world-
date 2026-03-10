@@ -1,6 +1,6 @@
 body{
   margin:0;
-  overflow:hidden;
+  overflow: hidden;
   font-family: Arial, sans-serif;
 }
 
@@ -16,7 +16,7 @@ body{
 }
 
 .earth{
-  width:300px;
+  width:400px;
   animation:earthZoom 4s ease-out forwards;
 }
 
@@ -36,8 +36,8 @@ body{
   text-align:center;
   margin-top:20px;
   opacity:0;
-  animation:titleFade 3s ease forwards;
-  animation-delay:3s;
+
+  animation: titleFade 3s ease forwards 3s; 
 }
 
 @keyframes titleFade{
@@ -53,6 +53,6 @@ body{
 
 .earth:hover{
   filter: drop-shadow(0 0 20px cyan);
-  transform:scale(1.05);
+  transform:scale(1.08);
   cursor:pointer;
 }
