@@ -37,7 +37,8 @@ body{
   margin-top:20px;
   opacity:1;
 
-  animation: titleFade 3s ease forwards 3s; 
+  animation: titleFade 3s ease forwards; 
+  animation-delay: 4s; 
 }
 
 @keyframes titleFade{
