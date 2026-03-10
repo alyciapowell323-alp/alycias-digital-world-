@@ -7,7 +7,7 @@ body{
 .space{
   height:100vh;
   width:100%;
-  background:url("images/stars.jpg");
+  background:url("stars.jpg");
   background-size:cover;
   display:flex;
   flex-direction:column;
