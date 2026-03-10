@@ -35,7 +35,7 @@ body{
   color:white;
   text-align:center;
   margin-top:20px;
-  opacity:0;
+  opacity:1;
 
   animation: titleFade 3s ease forwards 3s; 
 }
