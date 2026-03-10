@@ -52,7 +52,7 @@ body{
 }
 
 .earth:hover{
-  filter: drop-shadow(0 0 20px cyan);
+  filter: drop-shadow(0 0 20px pink);
   transform:scale(1.08);
   cursor:pointer;
 background: url("stars.jpg");
